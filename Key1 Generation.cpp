@@ -4,8 +4,6 @@ using namespace std;
 
 int main()
 {
-    // Program Title: DES Round 1 Key Generation (K1)
-
     string key, key56, C, D, combined, K1 = "";
 
     int PC1[56] = {
@@ -28,7 +26,7 @@ int main()
         44, 49, 39, 56, 34, 53,
         46, 42, 50, 36, 29, 32};
 
-    cout << "Program: DES Round 1 Key Generation (K1)" << endl;
+    // cout << "Program: DES Round 1 Key Generation (K1)" << endl;
     cout << "Enter 64-bit binary key: ";
     cin >> key;
 
@@ -70,7 +68,7 @@ int main()
         K1 += combined[PC2[i] - 1];
     }
 
-    cout << "Round 1 Key (K1): " << K1 << endl;
+    cout << "K1: " << K1 << endl;
 
     return 0;
 }

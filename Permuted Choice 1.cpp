@@ -4,8 +4,6 @@ using namespace std;
 
 int main()
 {
-    // Program Title: DES Permuted Choice 1 (PC-1)
-
     string key, output = "";
 
     int PC1[56] = {

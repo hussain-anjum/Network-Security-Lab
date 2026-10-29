@@ -10,14 +10,12 @@ int main()
     cout << "Enter a 32-bit binary string: ";
     cin >> input;
 
-    // Check input length
     if (input.length() != 32)
     {
         cout << "Error: Input must contain 32 bits." << endl;
         return 0;
     }
 
-    // Check that input contains only 0 and 1
     for (int i = 0; i < 32; i++)
     {
         if (input[i] != '0' && input[i] != '1')
@@ -27,7 +25,7 @@ int main()
         }
     }
 
-    // Standard DES E-box expansion table
+    // Standard expansion table
     int E[48] = {
         32, 1, 2, 3, 4, 5,
         4, 5, 6, 7, 8, 9,

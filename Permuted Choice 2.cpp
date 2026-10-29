@@ -4,8 +4,6 @@ using namespace std;
 
 int main()
 {
-    // Program Title: DES Permuted Choice 2 (PC-2)
-
     string key, roundKey = "";
 
     int PC2[48] = {
@@ -18,7 +16,7 @@ int main()
         44, 49, 39, 56, 34, 53,
         46, 42, 50, 36, 29, 32};
 
-    cout << "Program: DES Permuted Choice 2 (PC-2)" << endl;
+    // cout << "Program: DES Permuted Choice 2 (PC-2)" << endl;
     cout << "Enter 56-bit key: ";
     cin >> key;
 

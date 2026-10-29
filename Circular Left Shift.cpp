@@ -4,11 +4,9 @@ using namespace std;
 
 int main()
 {
-    // Program Title: DES Circular Left Shift (Round 1)
-
     string key, C0, D0, C1, D1;
 
-    cout << "Program: DES Circular Left Shift (Round 1)" << endl;
+    // cout << "Program: DES Circular Left Shift (Round 1)" << endl;
     cout << "Enter 56-bit key: ";
     cin >> key;
 

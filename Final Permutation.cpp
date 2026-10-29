@@ -4,8 +4,6 @@ using namespace std;
 
 int main()
 {
-    // Program Title: DES Final Permutation (FP)
-
     string input, output = "";
 
     int FP[64] = {
@@ -18,7 +16,7 @@ int main()
         34, 2, 42, 10, 50, 18, 58, 26,
         33, 1, 41, 9, 49, 17, 57, 25};
 
-    cout << "Program: DES Final Permutation (FP)" << endl;
+    // cout << "Program: DES Final Permutation (FP)" << endl;
     cout << "Enter 64-bit binary input: ";
     cin >> input;
 

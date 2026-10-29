@@ -6,18 +6,15 @@ int main()
 {
     string input, output = "";
 
-    // Take a 32-bit input
     cout << "Enter a 32-bit binary string: ";
     cin >> input;
 
-    // Check input length
     if (input.length() != 32)
     {
         cout << "Error: Input must contain 32 bits." << endl;
         return 0;
     }
 
-    // Check that every character is 0 or 1
     for (int i = 0; i < 32; i++)
     {
         if (input[i] != '0' && input[i] != '1')
@@ -27,7 +24,7 @@ int main()
         }
     }
 
-    // Standard DES P-box permutation table
+    // Standard P-box permutation table
     int P[32] = {
         16, 7, 20, 21,
         29, 12, 28, 17,

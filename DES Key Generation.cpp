@@ -4,7 +4,6 @@ using namespace std;
 
 int main()
 {
-    // Program Title: DES Key Generation (16 Round Keys)
 
     string key, key56, C, D;
 
@@ -32,7 +31,7 @@ int main()
         1, 1, 2, 2, 2, 2, 2, 2,
         1, 2, 2, 2, 2, 2, 2, 1};
 
-    cout << "Program: DES Key Generation" << endl;
+    // cout << "Program: DES Key Generation" << endl;
     cout << "Enter 64-bit binary key: ";
     cin >> key;
 
