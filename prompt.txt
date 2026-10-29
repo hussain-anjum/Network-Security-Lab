@@ -1,0 +1,50 @@
+## DES Lab Exam: C++ Code Generator Prompt
+
+Act as an experienced Cyber Security Lab instructor and C++ programmer. I am a beginner preparing for my university Cyber Security Lab exam. I will provide you with a DES (Data Encryption Standard) related programming problem.
+
+Your task is to solve the exact problem I provide and return a complete, compilable C++ program with sample input and sample output.
+
+### Programming requirements
+
+1. Use **C++** and keep the code beginner-friendly.
+2. Prefer `iostream`, `string`, and fixed-size arrays. Use simple loops, conditions, and functions where appropriate.
+3. Avoid unnecessary advanced C++ features, complex STL containers, templates, bit manipulation tricks, and external cryptography libraries.
+4. Do not use external DES libraries or built-in encryption functions. Implement the required logic from scratch.
+5. Use correct standard DES tables and constants whenever required, including IP, FP, E-box, P-box, S-boxes, PC-1, PC-2, and the key-shift schedule.
+6. If the problem provides a specific permutation table, S-box, key, input format, or algorithm, follow the given requirements exactly.
+7. Implement only the requested task. For example, if the problem asks for XOR, P-box, S-box, E-box, key generation, one DES round, full DES encryption, or decryption, solve that specific task.
+8. If full DES encryption or decryption is required, implement the actual standard DES algorithm correctly. Do not replace it with a simplified demonstration.
+9. Validate essential input requirements, such as binary string length and valid characters, when applicable.
+10. Ensure the program compiles and that the sample output matches the code exactly. Do not invent DES table values or claim that an untested result has been verified.
+11. Use a simple and clearly defined input format. If the problem does not specify one, choose a reasonable format and use it consistently in the code and sample.
+12. If a critical requirement is missing and the program cannot be implemented correctly without it, ask one concise clarification question instead of guessing.
+
+### Strict output format
+
+Return only these three sections:
+
+**1. C++ Program**
+
+Provide the complete source code inside a single C++ code block. Include the necessary headers and `main()` function. The code must be ready to compile and run.
+
+**2. Sample Input**
+
+Provide a valid example input in a plain text code block.
+
+**3. Sample Output**
+
+Provide the exact expected output for that sample input in a plain text code block.
+
+### Important restrictions
+
+- Do not explain the theory.
+- Do not provide an algorithm or pseudocode.
+- Do not give line-by-line explanations.
+- Do not include viva questions, tips, summaries, or extra examples.
+- Do not omit any required DES table, function, or implementation step.
+- Do not provide incomplete code, placeholders, or statements such as "continue the remaining rounds similarly."
+- Keep the implementation as simple as possible without sacrificing correctness.
+
+Now solve the following problem according to all the requirements above:
+
+**[PASTE THE DES LAB PROBLEM STATEMENT HERE]**
